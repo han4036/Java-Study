@@ -2,18 +2,18 @@
 public class ex05 {
 
 	public static void main(String[] args) {
-		//º¯¼ö ¼³Á¤
-		String ride = "ÀÚÀü°Å";
+		//ë³€ìˆ˜ ì„¤ì •
+		String ride = "ìì „ê±°";
 		String str;
 		
-		//½ºÀ§Ä¡¹®
+		//ìŠ¤ìœ„ì¹˜ë¬¸
 		switch(ride) {
-		case "¿Ü¹ßÀÚÀü°Å" : str = "¹ÙÄû°¡ ÇÑ°³";break;
-		case "ÀÚÀü°Å" : str = "¹ÙÄû°¡ µÎ°³";break;
-		case "¼¼¹ßÀÚÀü°Å" : str = "¹ÙÄû°¡ ¼¼°³";break;
-		case "³×¹ßÀÚÀü°Å" : str = "¹ÙÄû°¡ ³×°³";break;
-		default : str = "ÀÚÀü°Å°¡ ¾Æ´Ô";
+		case "ì™¸ë°œìì „ê±°" : str = "ë°”í€´ê°€ í•œê°œ";break;
+		case "ìì „ê±°" : str = "ë°”í€´ê°€ ë‘ê°œ";break;
+		case "ì„¸ë°œìì „ê±°" : str = "ë°”í€´ê°€ ì„¸ê°œ";break;
+		case "ë„¤ë°œìì „ê±°" : str = "ë°”í€´ê°€ ë„¤ê°œ";break;
+		default : str = "ìì „ê±°ê°€ ì•„ë‹˜";
 		}
 		System.out.println(str);
-	}
+}
 }
